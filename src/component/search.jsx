@@ -33,6 +33,8 @@ function Search(){
         })
         setSame(filt)
     }
+    
+
 
     const setLocal=function(i){
         console.log(i);
