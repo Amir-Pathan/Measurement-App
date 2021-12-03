@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router,Route,Switch,HashRouter} from 'react-router-dom'
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Header from './component/headers';
 import {IconContext} from 'react-icons'
 import Setting from './component/setting'
