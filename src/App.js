@@ -36,7 +36,6 @@ function App() {
     <div>
       <Provider store={store}>
       <Router>
-        <HashRouter base='/'>
         <IconContext.Provider value={{
           size:'25',
         }}>
@@ -76,7 +75,6 @@ function App() {
           <Search/>
         </Route>
         </IconContext.Provider>
-        </HashRouter>
       </Router>
       </Provider>
     </div>
