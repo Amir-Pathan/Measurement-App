@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import {BrowserRouter as Router,Route,Switch,HashRouter} from 'react-router-dom'
 import Header from './component/headers';
 import {IconContext} from 'react-icons'
 import Setting from './component/setting'
@@ -36,6 +36,7 @@ function App() {
     <div>
       <Provider store={store}>
       <Router>
+        <HashRouter base='/'>
         <IconContext.Provider value={{
           size:'25',
         }}>
@@ -75,6 +76,7 @@ function App() {
           <Search/>
         </Route>
         </IconContext.Provider>
+        </HashRouter>
       </Router>
       </Provider>
     </div>
