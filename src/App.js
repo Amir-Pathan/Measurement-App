@@ -40,7 +40,7 @@ function App() {
           size:'25',
         }}>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/Measurement-App'>
             <Header/>
           </Route>
           <Route path='/settingShirts'>
